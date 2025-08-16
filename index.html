@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="az">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flippy Bird</title>
+    <meta name="description" content="Sadə Flappy Bird klonu — Vanilla JS & Canvas" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <h1>Flippy Bird</h1>
+      <canvas id="game" width="480" height="720" aria-label="Flippy Bird oyunu"></canvas>
+
+      <div class="hud">
+        <button id="startBtn" class="btn">Başla</button>
+        <button id="pauseBtn" class="btn">Pauza (P)</button>
+        <button id="resetBtn" class="btn">Restart (R)</button>
+      </div>
+
+      <p class="hint">
+        Tap/klik və ya <kbd>SPACE</kbd> ilə uç. Borulardan keç, xal qazan!
+      </p>
+
+      <footer>
+        <small>MIT License • Vanilla JS • Canvas</small>
+      </footer>
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
